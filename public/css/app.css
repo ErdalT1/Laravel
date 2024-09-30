@@ -1,0 +1,67 @@
+/* Container içindeki elemanların hizalanması */
+#menu .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Checkbox ve resim ile metin yan yana olacak şekilde hizalama */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+/* Checkbox'ın solunda biraz boşluk bırakılması */
+.menu-item input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5); /* Checkbox boyutunu artırmak için */
+}
+
+/* Resimlerin boyutlandırılması ve hizalanması */
+.menu-item img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/* Menü başlık ve fiyat */
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #d4a017;
+    margin-bottom: 8px;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    color: #228B22;
+}
+
+/* Masa numarası girişi stili */
+input[name="table_number"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 6px;
+    font-size: 1rem;
+}
+
+/* Kaydet butonu stili */
+button[type="submit"] {
+    background-color: #cc862b;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc862b;
+}
