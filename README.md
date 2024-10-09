@@ -22,8 +22,8 @@ Proje için aşağıdaki gereksinimlere sahip olmanız gerekmektedir:
 
    ```bash
    cd C:/laragon/www
-   git clone https://github.com/ErdalT1/Laravel.git
-   cd Laravel
+   git clone https://github.com/ErdalT1/Laravel-Blog.git
+   cd Laravel-Blog
 3. **Bağımlılıkları yükleyin:**
    ```bash
    composer install
