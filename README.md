@@ -29,6 +29,7 @@ Proje için aşağıdaki gereksinimlere sahip olmanız gerekmektedir:
    composer install
    npm install
 5. **Veritabanı ayarlarını yapılandırın:**
+   .env klasörü içerisinde ilgili kısımda bu değişiklikleri yapın
     ```bash
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
